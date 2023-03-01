@@ -1,0 +1,13 @@
+{
+  "AssemblyName": "NoTeleportCooldown.dll",
+  "Author": "oldark1 + Kupie",
+  "Description": "Removes cooldown from teleport stone",
+  "DisplayName": "NoTeleportCooldown",
+  "Enable": true,
+  "EntryMethod": "NoTeleportCooldown.MainPatcher.Patch",
+  "Id": "NoTeleportCooldown",
+  "UpdateAvailable": false,
+  "LoadOrder": 1,
+  "NexusId": -1,
+  "Version": "1.0.0.0"
+}
