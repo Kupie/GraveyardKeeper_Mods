@@ -1,0 +1,12 @@
+{
+  "AssemblyName": "GKSleepModFixed.dll",
+  "Author": "",
+  "Description": "GKSleepModFixed",
+  "DisplayName": "GKSleepModFixed",
+  "Enable": true,
+  "EntryMethod": "GKSleepModFixed.MainPatcher.Patch",
+  "Id": "FastSleepFixed",
+  "UpdateAvailable": false,
+  "NexusId": -1,
+  "Version": "1.0.0.0"
+}
