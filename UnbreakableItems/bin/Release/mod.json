@@ -1,0 +1,13 @@
+{
+  "AssemblyName": "UnbreakableItems.dll",
+  "Author": "",
+  "Description": "UnbreakableItems",
+  "DisplayName": "UnbreakableItems",
+  "Enable": true,
+  "EntryMethod": "UnbreakableItems.MainPatcher.Patch",
+  "Id": "UnbreakableItems",
+  "UpdateAvailable": false,
+  "LoadOrder": 16,
+  "NexusId": -1,
+  "Version": "1.0.0.0"
+}
