@@ -2,22 +2,20 @@
 using System.Collections.Generic;
 using System.Reflection.Emit;
 using System.Linq;
-using System;
 
 namespace GKSleepModFixed;
 
-[HarmonyPatch(typeof(SleepGUI))]
-[HarmonyPatch("<Open>b__18_0")]
-internal class SleepGUI_delegate_Patcher
+[HarmonyPatch(typeof(WaitingGUI))]
+[HarmonyPatch("<Open>b__11_0")]
+internal class WaitingGUI_Timescale_Patch
 {
     [HarmonyTranspiler]
     private static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
     {
+        float meditateMult = System.Convert.ToSingle(ConfigReader.ReadConfig()["meditateMult"]);
 
-        float sleepMult = System.Convert.ToSingle(ConfigReader.ReadConfig()["sleepMult"]);
-
-        float num = 10f * sleepMult;
-        float num2 = (1f * sleepMult) / 12f;
+        float num = 10f * meditateMult;
+        float num2 = (1f * meditateMult) / 12f;
         int index = 0;
         int index2 = 0;
         List<CodeInstruction> list = new List<CodeInstruction>(instructions);
@@ -39,4 +37,5 @@ internal class SleepGUI_delegate_Patcher
         list[index].operand = num;
         return list.AsEnumerable();
     }
+
 }
