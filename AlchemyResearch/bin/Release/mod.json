@@ -1,0 +1,13 @@
+{
+  "AssemblyName": "AlchemyResearch.dll",
+  "Author": "",
+  "Description": "AlchemyResearch",
+  "DisplayName": "AlchemyResearch",
+  "Enable": true,
+  "EntryMethod": "AlchemyResearch.MainPatcher.Patch",
+  "Id": "AlchemyResearch",
+  "UpdateAvailable": false,
+  "LoadOrder": 3,
+  "NexusId": -1,
+  "Version": "1.0.0.0"
+}

@@ -1,0 +1,10 @@
+# Label for Result Preview for Translation
+ResultPreviewText|Result
+
+# Format for Known Recipes.txt:
+# [1] -> Save Game name, e.g. C:\Users\<User>\AppData\LocalLow\Lazy Bear Games\Graveyard Keeper\1.dat
+#
+# Ingredients:
+# Ingredient 1 | Ingredient 2 | Ingredient 3 | Result
+#
+# Note: Ingredient names correspond to the Item.id of the Item Ingredient
