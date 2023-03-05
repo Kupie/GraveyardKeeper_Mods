@@ -1,0 +1,13 @@
+{
+  "AssemblyName": "MuteOnUnfocus.dll",
+  "Author": "",
+  "Description": "MuteOnUnfocus",
+  "DisplayName": "Mutes game when it loses focus",
+  "Enable": true,
+  "EntryMethod": "MuteOnUnfocus.MainPatcher.Patch",
+  "Id": "MuteOnUnfocus",
+  "UpdateAvailable": false,
+  "LoadOrder": 16,
+  "NexusId": -1,
+  "Version": "1.0.0.0"
+}
